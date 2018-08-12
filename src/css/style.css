@@ -1,7 +1,7 @@
 @import 
 url('https://fonts.googleapis.com/css?family=EB+Garamond&subset=cyrillic,latin-ext');
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -12,13 +12,18 @@ body {
     margin: 0;
 }
 
-header{
-    background-color: rgba(145, 151, 150, 0.747);
+header {
+    background-color: rgba(149, 151, 145, 0.747);
     height: 80px;
 }
 
-.nav-logo{
+.nav-logo {
+    color: rgba(249, 253, 17, 0.733);
+    font-size: 25px;
+    margin: 0;
+    padding-left: 15px;
     float: left;
+    line-height: 80px;
 }
 
 nav ul {
