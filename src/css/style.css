@@ -13,5 +13,18 @@ body {
 }
 
 header{
-    
+    background-color: rgba(145, 151, 150, 0.747);
+    height: 80px;
+}
+
+.nav-logo{
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
