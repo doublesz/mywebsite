@@ -146,13 +146,14 @@ nav ul li:hover > ul {
 .gallery-section {
     margin: 0 auto;
     width: 100%;
+
 }
 
 .gallery-section h2 {
     margin: 0;
     padding: 10px;
     text-align: center;
-    color: #66b8c4;
+    color: rgb(34, 128, 143);
 }
 
 .gallery-image {
@@ -174,4 +175,56 @@ nav ul li:hover > ul {
 .gallery-image img:hover {
     transform:scale(1.15);
     cursor: pointer;
+}
+
+.movie-section {
+    height: 400px;
+    background-color: rgba(33, 161, 65, 0.76);
+    position: relative;
+}
+
+.single-movie {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.icon-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.icon {
+    display: block;
+    width: 200px;
+    box-shadow: 4px 4px 24px 1px rgba(14, 109, 14, 0.75);
+    text-align: center;
+}
+
+.icon i {
+    font-size: 50px;
+    color: rgb(100, 100, 100);
+    padding: 15px;
+}
+
+.icon p {
+    font-size: 30px;
+}
+
+.icon p span {
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(14, 109, 14);
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
 }
