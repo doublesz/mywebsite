@@ -218,6 +218,60 @@ nav ul li:hover > ul {
     font-size: 18px;
 }
 
+.contact-section {
+    -webkit-box-shadow: 4px 4px 24px 1px rgba(45,120,70,0.75);
+    -moz-box-shadow: 4px 4px 24px 1px rgba(45,120,70,0.75);
+    box-shadow: 4px 4px 24px 1px rgba(45,120,70,0.75);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.contact-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    ;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+input {
+    display: block;
+    margin: 5 auto;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #66b84c;
+}
+
+textarea {
+    height: 100px;
+    width: 400px;
+    border: 1px solid #66b84c;
+    display: block;
+    margin: 10 auto;
+}
+
+input[type="submit"], [type="reset"] {
+    margin: 20px auto;
+    cursor: pointer;
+    max-width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background: rgb(14, 109, 14);
+    display: inline-block;
+    border: 1px solid #000000;
+}
+
 footer {
     background-color: rgb(14, 109, 14);
     text-align: center;

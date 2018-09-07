@@ -1,5 +1,5 @@
     <?php
-        $to      = 'tymon990@gmail.com';
+        $to      = 'your@email.com';
         $name    = $_POST['name'];
         $email   = $_POST['email'];
         $subject = 'Nowa wiadomość od ' . $name . ' (' . $email . ')';

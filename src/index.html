@@ -21,6 +21,9 @@
     <!-- link do głównego arkusza stylów -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <!-- script src="main.js"></script -->
+
+    <!--php form-->
+
 </head>
 
 <body>
@@ -147,9 +150,22 @@
         </div>
     </section>
 
-    <form action="form.php" method="POST">
 
-    </form>
+
+    <section class="contact-section container">
+        <h2>Napisz do nas!</h2>
+        <form action="php/form.php" method="POST">
+            <label for="name">Imię</label>
+            <input type="text" name="name" id="name" placeholder="Imię lub nick" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="np. adam.kowalski@poczta.pl" required />
+            <textarea placeholder="Treść wiadomości" name="message" id="message" rows="3" required></textarea>
+            <input type="submit" name="submit" value="Wyślij">
+            <input type="reset" name="submit" value="Usuń dane">
+        </form>
+    </section>
+
+
 
     <footer>
         <p>&#169 Strona stworzona przez
