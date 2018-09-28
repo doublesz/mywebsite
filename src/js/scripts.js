@@ -1,6 +1,7 @@
-$('.slick-slider').slick({
+  $('.slick-slider').slick({
     dots: true,
-    infinite: false,
+    arrows: true,
+    infinite: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -11,7 +12,8 @@ $('.slick-slider').slick({
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+          dots: true,
+          arrows: true
         }
       },
       {
@@ -28,8 +30,5 @@ $('.slick-slider').slick({
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
